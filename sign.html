@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #head{
+            width: 100%;
+            height: 80px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+        #head>img{
+            height: 50%;
+            margin-left: 40%;
+            margin-top: 2%;
+        }
+        #head1{
+            width: 100%;
+            height: 900px;
+            background-color: #eeeeee;
+            padding: 15px;
+        }
+        #head1>h1{
+            
+            font-weight: 900;
+            font-size: 30px;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+        }
+        .head1div{
+            width: 40%;
+            height: 750px;
+            margin: auto;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 15px 10px;
+            box-sizing: border-box;
+            background-color: white;
+        }
+        .google{
+            height: 40px;
+            margin: auto;
+            width: 70%;
+            border: 1px solid black;
+            background-color: #eeeeee;
+            margin-top: 10%;
+            text-align: center;
+            
+
+        }
+        .google>a{
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+            font-weight: 700;
+            font-family: 'Lato', sans-serif;
+            margin-left: 3%;
+            
+        }
+        .fb{
+            height: 40px;
+            margin: auto;
+            width: 70%;
+            border: 1px solid black;
+            background-color: #1877f2;
+            margin-top: 5%;
+            color: white;
+            text-align: center;
+        }
+        .fb>a{
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            font-weight: 700;
+            font-family: 'Lato', sans-serif;
+            margin-left: 3%;
+           
+        }
+        .fb>span{
+            margin-top: 5%;
+        }
+        hr{
+            margin-top: 8%;
+        }
+        .mac{
+            height: 40px;
+            margin: auto;
+            width: 70%;
+            text-align: center;
+            border: 1px solid black;
+            background-color: #000000;
+            margin-top: 5%;
+            color: white;
+        }
+        .mac>a{
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            font-weight: 700;
+            font-family: 'Lato', sans-serif;
+            margin-left: 3%;
+        }
+        img{
+            height: 50%;
+            margin-top: 2%;
+        }
+        h3{
+            margin-left: 15%;
+            margin-top: 2%;
+            font-size: 16px;
+            font-family: 'Lato', sans-serif;
+        }
+        input{
+            height: 40px;
+            margin: auto;
+            width: 70%;
+            border: 1px solid black;
+            color: black;
+            margin-left: 15%;
+            border-radius: 6px;
+        }
+        button{
+            margin-top: 10%;
+            margin-left: 35%;
+            height: 50px;
+            width: 30%;
+            border-radius: 20px;
+            color: white;
+            background-color: #F99D1C;
+            border: none;
+            font-weight: 700;
+            font-size: 16px;
+            font-family: 'Lato', sans-serif;
+        }
+        #power{
+            margin-left: 20%;
+            margin-top: 13%;
+        }
+        .p1{
+            margin-left: 30%;
+        }
+        .p2{
+            margin-left: 20%;
+        }
+        .img1{
+            margin-left: 20%;
+        }
+        .img2{
+            margin-left: 6%;
+        }
+        h4{
+            color: #757575;
+        }
+        
+      
+    </style>
+</head>
+<script src="https://kit.fontawesome.com/0c430de460.js" crossorigin="anonymous"></script>
+<body>
+    <div id="head">
+   <img src="https://images.livemint.com/static/livemint-logo-v2.svg" alt="">
+    </div>
+
+    <div id="head1">
+        
+        <h1>Login or Register</h1>
+       <div class="head1div">
+           <div class="google">
+              <span><img src="https://img.icons8.com/color/344/google-logo.png" alt=""></span> <a href="https://accounts.google.com/o/oauth2/v2/auth/identifier?scope=email%20profile&include_granted_scopes=true&response_type=token&state=state_parameter_passthrough_value&redirect_uri=https%3A%2F%2Faccounts.hindustantimes.com%2Fgoogle_oauth&client_id=59036276639-9ufea2catbasbmb6mmjn7kdsgpma6edn.apps.googleusercontent.com&flowName=GeneralOAuthFlow">Sign in With Google</a>
+           </div>
+           <div class="fb"> <span><i class="fa-brands fa-facebook"></i></span><a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=2140564542847120&kid_directed_site=0&app_id=2140564542847120&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv12.0%2Fdialog%2Foauth%3Fapp_id%3D2140564542847120%26cbt%3D1651694517833%26channel_url%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df1cc2935c599b98%2526domain%253Daccounts.hindustantimes.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Faccounts.hindustantimes.com%25252Ff3c551f92d0a578%2526relation%253Dopener%26client_id%3D2140564542847120%26display%3Dpopup%26domain%3Daccounts.hindustantimes.com%26e2e%3D%257B%257D%26fallback_redirect_uri%3Dhttps%253A%252F%252Faccounts.hindustantimes.com%252F%253Ftype%253Dplain%2526ref%253Dlm%2526cta%253Dhome_sign_in%2526funnel_entry%253Dhome_sign_in%2526lmMoe%253Dc64c83fc-f85b-4af2-a1c9-3b5665b7678f%26locale%3Den_US%26logger_id%3Df2163e81cc5ae6c%26origin%3D1%26redirect_uri%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df33f34c41b45cec%2526domain%253Daccounts.hindustantimes.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Faccounts.hindustantimes.com%25252Ff3c551f92d0a578%2526relation%253Dopener%2526frame%253Df1d4bab114da8b%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%26return_scopes%3Dtrue%26scope%3Dpublic_profile%252Cemail%26sdk%3Djoey%26version%3Dv12.0%26ret%3Dlogin%26fbapp_pres%3D0%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df33f34c41b45cec%26domain%3Daccounts.hindustantimes.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Faccounts.hindustantimes.com%252Ff3c551f92d0a578%26relation%3Dopener%26frame%3Df1d4bab114da8b%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied&display=popup&locale=en_GB&pl_dbl=0">Sign in With Facebook</a></div>
+           <div class="mac"><span><i class="fa-brands fa-apple"></i></span> <a href="https://appleid.apple.com/auth/authorize?client_id=com.hindustantimes.mintiphone.service&redirect_uri=https%3A%2F%2Faccounts.hindustantimes.com%2Fauth_apple&response_type=code%20id_token&scope=name%20email&nonce=%5BNONCE%5D&response_mode=form_post&state=LM">Sign in With Apple</a></div>
+          
+           <h4>______________________________ OR _____________________________</h4>
+      <form>
+        <h3>Email Or Mobile Number*</h3>
+        <input type="text" name="" id="">
+
+         <button id="btn" type="submit" >Continue</button>
+      </form>
+         
+
+           <div id="power">
+               <p class="p1">Powerd by</p>
+               <img class="img1" src="https://images.livemint.com/img/static/ht-digital-logo.svg" alt="">
+               <p class="p2">One network. One account</p>
+               <img class="img2" src="https://images.livemint.com/dev/LHNewFooterLogoDesk.svg" alt="">
+           </div>
+        </div>
+     
+    </div>
+</body>
+<script>
+    /*signin.js file by yogendra*/
+ 
+ document.querySelector("form").addEventListener("submit", myfunction);
+   
+   signArr = [];
+   function myfunction() {
+     event.preventDefault();
+   
+     window.location.href = "signin.html";
+   }
+   </script>
+</html>

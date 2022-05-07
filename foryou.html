@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>livemint.com</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+        #header{
+             height: 80px;
+             width: 100%;
+             box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+             display: flex;
+            justify-content: space-between;
+        }
+        #explore{
+            height: 20px;
+            width: 6%;
+            border: 1px solid black;
+            display: flex;
+            justify-content:center;
+            padding: 4px 14px 2px 8px;
+            margin-top: 1.5%;
+            border-radius: 3px;
+            margin-left: 3%;
+        }
+        strong{
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            margin-right: 3%;
+        }
+        .bars{
+            margin-right: 5%;
+         
+        }
+        .mint{
+            height: 50%;
+            margin-top: 1.5%;
+            margin-left: 360%;
+        }
+        #epaper{
+            margin-left: 10%;
+        }
+        .search{
+            margin-left: 52%;
+            margin-top: 1%;
+            width: 25%;
+            
+            
+        }
+        .epaper{
+            color: black;
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            margin-right: 3%;
+            text-decoration: none;
+        }
+        .sign{
+            color: black;
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+            
+        }
+        .seabutton{
+       margin-right: 3%;
+        }
+        .icon{
+        margin-right: 3%;
+        }
+        #head1{
+            height: 2750px;
+            width: 100%;
+        
+            background-color: #F6F6F6;
+            display: flex;
+            margin: auto;
+            margin-top: 2%;
+        }
+        .sidehead{
+            height: 800px;
+            width: 40%;
+        }
+        .premium{
+            height: 70px;
+            width: 90%;
+            margin-top: 8%;
+            padding: 15px 20px;
+            box-sizing: border-box;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            background-color: white;
+        }
+      
+   .rbi{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: #212121;
+    margin-bottom: 5px;
+   }
+   .ai{
+    font-size :14px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 5px;
+    margin-top: 15px;
+   }
+   .ai:hover{
+    background-color: lightblue;
+   }
+   .dottedhr{
+    border:none;
+  border-top:1px dashed rgb(87, 58, 58);
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+  width:80%;
+   }
+   .icon1{
+       margin-left: 90%;
+       font-size: 14px;
+       
+   }
+   .icon2{
+          margin-right: 25%;
+          
+   }
+   
+   .icon2:hover{
+       background-color: #212121;
+   }
+ .center1{
+      height: 140px;
+      width: 90%;
+      margin-top: 1%;
+      padding: 10px;
+      box-sizing: border-box;
+      display: flex;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      background-color: white;
+      
+     
+  }
+  .center1first{
+      font-size: 10px;
+      font-family: 'Lato', sans-serif;
+      width: 80%;
+  }
+  .center1sec{
+    margin-left: 10%;
+    margin-top: 6%;
+    width: 20%;
+    
+  }
+  .right1sec{
+    margin-top: 3%;
+    width: 20%;
+  }
+  .right1sec>img{
+    border-radius: 5px;
+    width: 120%;
+     
+  }
+  .center1sec>img{
+      border-radius: 10px;
+      width: 60%;
+      margin-bottom: -20%;
+  }
+  .sidehead11{
+            height: auto;
+            width: 40%;
+            margin-right: 5%;
+            
+    
+  }
+  .sidehead1{
+      height: 60px;
+      width: 100%;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      background-color: white;
+      padding: 15px 10px;
+      box-sizing: border-box;
+      
+  }
+  .sidehead1>p{
+    font-size: 20px;
+    color: #212121;
+    font-weight: 900;
+    margin-top: 0%;
+    margin-left: 5%;
+  }
+  p>span{
+      margin-left: 10%;
+      color: #F99D1C;
+      margin-top: 5%;
+  }
+  .sidehead2{
+      height: 600px;
+      width: 100%;
+      border: 1px solid black;
+  }
+ .sidecenter1{
+    height: 100px;
+      margin-top: 5%;
+      padding: 15px 20px 25px 20px;
+      box-sizing: border-box;
+      display: flex;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      background-color: white;
+      margin-top: 0.5%;
+ }
+ .side1first{
+    font-size: 6px;
+      font-family: 'Lato', sans-serif;
+      width: 80%;
+      
+ }
+        
+    </style>
+</head>
+<script src="https://kit.fontawesome.com/0c430de460.js" crossorigin="anonymous"></script>
+<body>
+    <!--this is start header-->
+    <div id="header">
+     <div id="explore">
+  <div class="bars">
+    <span><i class="fa-solid fa-bars"></i></span> 
+  </div>
+  <a style="text-decoration: none;color: black;" href=""><strong>Explore</strong></a>
+  
+     </div>
+<div> <img class="mint" src="https://images.livemint.com/static/livemint-logo-v2.svg" alt=""></div>
+    <div class="search">
+      <span class="seabutton"><i class="fa-solid fa-magnifying-glass"></i></span>
+      <span class="icon"><i class="fa-solid fa-bell"></i></span>
+      <a class="epaper" href="">|  e-paper </a>
+      <a class="sign" href="sign.html">|  sign in  |</a>
+    </div>
+    </div>
+     <!--header finish here-->
+    <!--this is down side-->
+
+
+        <div id="head1">
+        <div class="sidehead">
+        <ul style="list-style-type:none;">
+         <li class="ai"> <a style="text-decoration: none;color: #212121;" href="index.html"> Home</a></li>
+        <li class="ai"> <a style="text-decoration: none;color: #212121;" href="latest.html">Latest</a> </li>
+     <li class="ai"><a style="text-decoration: none;color: #212121;" href="market.html">Markest</a> </li>
+      <li class="ai"> <a style="text-decoration: none;color: #212121;" href="premium.html">Premium</a></li>
+       <li class="ai"> <a style="text-decoration: none;color: #212121;" href="foryou.html">For You</a></li>
+                </ul>
+          <hr class="dottedhr">
+       
+            </div>
+           
+            
+
+            <div id="Center">
+                <p style="color:#F99D1C; ;">Home <i class="fa-solid fa-angle-right"></i>recommended for you</p>
+        <div class="centerhead">
+            
+            <div class="premium">
+                <h1 class="rbi">RECOMMENDED FOR YOU</h1>
+            </div>
+        
+      
+            <div style="margin-top: 3%;" class="center1">
+                <div class="center1first"><h1>RIL’s $100 billion milestone, powered by diversification</h1>
+         <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+     <div class="icon1">
+      <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+   <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+      </div>
+    </div>
+     <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/07/250x250/8aad1eb2-d2b4-11eb-b286-b459bd73bf37_1627118543650_1651893154738.jpg" alt="">
+    </div>
+                
+     </div>
+
+    <div class="center1">
+         <div class="center1first"><h1>The Pfizer R&D facility at IIT Madras is great news in more ways than one</h1>
+         <span style="color: #757575;">2 min read . 07:54 PM IST</span> 
+        <div class="icon1">
+     <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+       <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+        </div>
+     </div>
+         <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/Pfizer__1651693111470_1651836154432.jpg" alt="">
+      </div>
+                    
+      </div>
+
+         <div class="center1">
+       <div class="center1first"><h1>Indian-American astronaut Raja Chari, 3 others return to earth on SpaceX Dragon. Watch</h1>
+        <span style="color: #757575;">2 min read . 09:19 AM IST</span> 
+         <div class="icon1">
+         <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+       <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+         </div>
+        </div>
+        <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/US-SPACE-12_1651834904534_1651834914784.jpg" alt="">
+        </div>
+                        
+         </div>
+
+          <div class="center1">
+         <div class="center1first"><h1>'Doomsday warning': Putin likely to make announcement on Ukraine during WWII parade</h1>
+        <span style="color: #757575;">3 min read . 09:17 PM IST</span> 
+         <div class="icon1">
+         <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+      <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+            </div>
+         </div>
+      <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/Vladimir_Putin-Russia_1651562183300_1651845734644.jpg" alt="">
+             </div>
+                            
+           </div>
+        <div class="center1">
+          <div class="center1first"><h1>Rebirth of Jet Airways: CEO tells staff ‘no room for complacency’ after test flight</h1>
+          <span style="color: #757575;">2 min read . 07:35 AM IST</span> 
+          <div class="icon1">
+      <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+        <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+       </div>
+       </div>
+    <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/Jet_Airways_1649322836018_1651837989631.jpg" alt="">
+            </div>
+                                
+          </div>
+          <div class="center1">
+        <div class="center1first"><h1>India sees birth of its 100th unicorn, total valuation reaches $332.7 bn</h1>
+            <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+          <div class="icon1">
+        <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+        <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+       </div>
+      </div>
+        <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/startup-kRIH--621x414@LiveMint_1651857812443.jpg" alt="">
+          </div>
+                                    
+          </div>
+      <div class="center1">
+        <div class="center1first"><h1>'Set the benchmark really high': Jet Airways' Sanjeev Kapoor thanks Indigo for wishes after test flight</h1>
+            <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+            <div class="icon1">
+           <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+           <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+           </div>
+      </div>
+    <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/Jet_Airways_1649322836018_1651841471511.jpg" alt="">
+        </div>
+                                        
+      </div>
+         <div class="center1">
+        <div class="center1first"><h1>Porsche sales revenue grows over 4%, Cayenne tops selling chart Tacan came third</h1>
+        <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+       <div class="icon1">
+    <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+       <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+      </div>
+     </div>
+  <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/Porsche_1651846815345_1651846821240.jpeg" alt="">
+    </div>
+                                            
+      </div>
+  <div class="center1">
+    <div class="center1first"><h1>WATCH: Massive fire breaks out at rubber factory in Navi Mumbai, 3 industrial units gutted</h1>
+        <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+        <div class="icon1">
+        <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+           <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+       </div>
+        </div>
+    <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/PTI05-06-2022-000155B-0_1651846185565_1651846198533.jpg" alt="">
+        </div>
+                                                
+     </div>
+      <div class="center1">
+   <div class="center1first"><h1>Delhi: Classes 9 and 11 results 2022 declared. Here's how to check</h1>
+       <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+            <div class="icon1">
+            <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+          <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+            </div>
+    </div>
+    <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/cbse_class_10_12_board_exams_1644584990489_1651850439111.jpg" alt="">
+          </div>                                                    
+      </div>
+      <div class="center1">
+    <div class="center1first"><h1>Space jellyfish illuminates sky, thanks to SpaceX. Details here</h1>
+    <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+        <div class="icon1">
+    <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+   <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+   </div>
+      </div>
+   <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/FSERnQEXoAEOZ5W_1651854092780_1651854096407.jpg" alt="">
+            </div>                                    
+          </div>
+      <div class="center1">
+   <div class="center1first"><h1>Next pandemic will be caused by…: Experts reveal crucial data on animal to human virus transmission. 5 points </h1>
+    <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+    <div class="icon1">
+        <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+       <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+       </div>
+      </div>
+    <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/coronavirus_1608178200730_1608178208280_1651839500246.PNG" alt="">
+   </div>                                                            
+         </div>
+           <div class="center1">
+      <div class="center1first"><h1>Mutual funds vs PMS: Which one is better for whom. Details here</h1>
+        <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+    <div class="icon1">
+    <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+       <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+       </div>
+      </div>
+    <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/07/250x250/aba18858-026e-11ec-acd8-fd5700db077b_1631095279455_1651888042298.jpg" alt="">
+            </div>                   
+          </div>
+      <div class="center1">
+        <div class="center1first"><h1>OnePlus 10R 5G design element that makes it unique and aspirational</h1>
+            <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+                <div class="icon1">
+                <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+                 <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+              </div>
+             </div>
+       <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/OP_10R_5G_1651493369877_1651832394953.jpg" alt="">
+       </div>                                                                 
+     </div>
+ <div class="center1">
+   <div class="center1first"><h1>NHA plans an information portal for medical tourists</h1>
+       <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+   <div class="icon1">
+   <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+ <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+   </div>
+      </div>
+   <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/NTD1ZKSK_1651860460524_1651860464101.jpg" alt="">
+               </div>                                                                 
+                 </div>
+                </div>
+            </div>
+           
+          <!------------- right side start here --------------->
+            <div class="sidehead11">
+            <div class="sidehead1">
+           <p>Recommended For You <span><i class="fa-solid fa-chevron-right"></i></span></p> 
+            </div>
+            <div class="sidecenter1">
+            <div class="side1first"><h1>RIL’s $100 billion milestone, powered by diversification</h1>
+            <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+            <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                        
+          </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/07/250x250/8aad1eb2-d2b4-11eb-b286-b459bd73bf37_1627118543650_1651893154738.jpg" alt="">
+        </div>
+                    
+          </div>
+
+              <div class="sidecenter1">
+             <div class="side1first"><h1>The Pfizer R&D facility at IIT Madras is great news in more ways than one</h1>
+             <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+           <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+          </div>
+           <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/Pfizer__1651693111470_1651836154432.jpg" alt="">
+          </div>
+          </div>
+          <div class="sidecenter1">
+        <div class="side1first"><h1>Indian-American astronaut Raja Chari, 3 others return to earth on SpaceX Dragon.</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+           <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+              </div>
+           <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/US-SPACE-12_1651834904534_1651834914784.jpg" alt="">
+            </div>
+          </div>
+      <div class="sidecenter1">
+        <div class="side1first"><h1>'Doomsday warning': Putin likely to make announcement on Ukraine</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+       <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>   
+          </div>
+     <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/Vladimir_Putin-Russia_1651562183300_1651845734644.jpg" alt="">
+            </div>
+             </div>        
+         <div class="sidecenter1">
+         <div class="side1first"><h1>Rebirth of Jet Airways: CEO tells staff ‘no room for complacency’ after test</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>    
+              </div>
+       <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/06/250x250/Jet_Airways_1649322836018_1651837989631.jpg" alt="">
+                </div>
+
+
+                    
+         </div>    
+              <!--Trending start here -->         
+         <div style="margin-top: 5%;" class="sidehead1">
+            <p>Trending      <span><i class="fa-solid fa-chevron-right"></i></span></p> 
+         </div>
+<!--ssecond part 1-->
+<div class="sidecenter1">
+    <div class="side1first"><h1>LIC IPO: GMP, subscription status on day 4 of the bidding. Latest updates</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+        
+      </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/07/90x90/lic_ipo_1651895974836_1651895975055.jpg" alt="">
+        </div>
+    
+      </div>
+      <div class="sidecenter1">
+        <div class="side1first"><h1>Rakesh Jhunjhunwala earns ₹70 crore from dividend announced by</h1>
+            <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+            <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+            
+          </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/07/90x90/Rakesh_Jhunjhunwala_Portfolio_Equirus_1627126348131_1651907626582.PNG" alt="">
+            </div>
+        
+          </div>
+          <div class="sidecenter1">
+            <div class="side1first"><h1>Domestic LPG cylinder price hiked by ₹50 from today. Details here </h1>
+                <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+                <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                
+              </div>
+            <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/07/90x90/LPG_1651377074059_1651893808920.jpg" alt="">
+                </div>
+            
+              </div>
+              <div class="sidecenter1">
+                <div class="side1first"><h1>Apple iPhone 13 price drops to ₹52,300. Check the offers here</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+            <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                    
+          </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/07/90x90/Apple-iPhone13_1646912229120_1651907661845.jpg" alt="">
+            </div>
+                
+            </div>
+              
+                  <!--latest start here-->
+
+      <div style="margin-top: 5%;" class="sidehead1">
+        <p>Latest     <span><i class="fa-solid fa-chevron-right"></i></span></p> 
+             </div>
+            <!--ssecond part 1-->
+        <div class="sidecenter1">
+        <div class="side1first"><h1>NHAI recruitment 2022: Managerial posts vacant; here's how to apply</h1>
+    <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+      <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                    
+      </div>
+       <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/07/90x90/examnet-k47D--621x414@LiveMint_1651913995626.jpg" alt="">
+            </div>
+                
+          </div>
+          <div class="sidecenter1">
+            <div class="side1first"><h1>IMD issues alerts as east coast braces for another summer cyclone. Details</h1>
+            <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+            <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                        
+      </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/07/90x90/Odisha_cyclone_1651820591363_1651912675512.jpg" alt="">
+        </div>
+                    
+      </div>
+      <div class="sidecenter1">
+        <div class="side1first"><h1>Prudent Corporate IPO: What GMP signals ahead of issue opening</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                            
+          </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/07/90x90/Prudent_Corporate_IPO_1651912009475_1651912009678.jpg" alt="">
+            </div>
+                        
+          </div>
+          <div class="sidecenter1">
+        <div class="side1first"><h1>Providing facilities to border guards borders govt's top priority: Rajnath</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                
+          </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/07/90x90/Rajnath_Singh_1651912554961_1651912555088.jpg" alt="">
+        </div>
+                            
+    </div>
+                             
+                              <!--primer start here-->
+
+          <div style="margin-top: 5%;" class="sidehead1">
+        <p>Primer     <span><i class="fa-solid fa-chevron-right"></i></span></p> 
+             </div>
+                        <!--ssecond part 1-->
+        <div class="sidecenter1">
+        <div class="side1first"><h1>How India’s new VPN rules change the status quo</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                
+          </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/05/90x90/VPN_1651770873323_1651770885001.jpg" alt="">
+        </div>
+                            
+      </div>
+      <div class="sidecenter1">
+    <div class="side1first"><h1>What official data says about Covid-year excess deaths</h1>
+    <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+    <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                    
+                  </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/primerpic_1651687092651_1651687106598.jpg" alt="">
+                    </div>
+                                
+                  </div>
+          <div class="sidecenter1">
+       <div class="side1first"><h1>How a trade deal with the EU could shape up</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                        
+      </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/03/90x90/trade_1651602332159_1651602336949.jpg" alt="">
+        </div>
+                                    
+      </div>
+      <div class="sidecenter1">
+        <div class="side1first"><h1>What is driving up GST collection?</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                            
+      </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/02/90x90/GSTpic_1651513922131_1651513927953.jpg" alt="">
+        </div>
+                                        
+        </div>
+                                    
+                                          <!--premium start here-->
+
+      <div style="margin-top: 5%;" class="sidehead1">
+        <p>Premium     <span><i class="fa-solid fa-chevron-right"></i></span></p> 
+         </div>
+                                    <!--ssecond part 1-->
+        <div class="sidecenter1">
+        <div class="side1first"><h1>RIL’s $100 billion milestone, powered by diversification</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                            
+          </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/07/90x90/8aad1eb2-d2b4-11eb-b286-b459bd73bf37_1627118543650_1651893154738.jpg" alt="">
+        </div>
+                                        
+          </div>
+          <div class="sidecenter1">
+        <div class="side1first"><h1>Can the US Fed deliver a soft landing this time?</h1>
+    <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                                
+      </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/06/90x90/oped5_1616087437145_1651839623829.jpg" alt="">
+        </div>
+                                            
+          </div>
+      <div class="sidecenter1">
+    <div class="side1first"><h1>The Pfizer R&D facility at IIT Madras is great news in more ways than one</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                                    
+          </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/06/90x90/iit_madras_pfizer_1651841557606_1651841557756.jpg" alt="">
+            </div>
+                                                
+      </div>
+      <div class="sidecenter1">
+        <div class="side1first"><h1>Sensex Tanks 900 Points as Metal, IT Stocks Bleed; Wipro & HCL Tech Top</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                                        
+      </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/06/90x90/markets_1647363111946_1651814731166.jpg" alt="">
+   </div>                                                    
+  </div>                                                
+      </div>
+
+        </div>      
+        
+</body>
+</html>

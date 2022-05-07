@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>livemint.com</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+        #header{
+             height: 80px;
+             width: 100%;
+             box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+             display: flex;
+            justify-content: space-between;
+        }
+        #explore{
+            height: 20px;
+            width: 6%;
+            border: 1px solid black;
+            display: flex;
+            justify-content:center;
+            padding: 4px 14px 2px 8px;
+            margin-top: 1.5%;
+            border-radius: 3px;
+            margin-left: 3%;
+        }
+        strong{
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            margin-right: 3%;
+        }
+        .bars{
+            margin-right: 5%;
+         
+        }
+        .mint{
+            height: 50%;
+            margin-top: 1.5%;
+            margin-left: 360%;
+        }
+        #epaper{
+            margin-left: 10%;
+        }
+        .search{
+            margin-left: 52%;
+            margin-top: 1%;
+            width: 25%;
+            
+            
+        }
+        .epaper{
+            color: black;
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            margin-right: 3%;
+            text-decoration: none;
+        }
+        .sign{
+            color: black;
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+            
+        }
+        .seabutton{
+       margin-right: 3%;
+        }
+        .icon{
+        margin-right: 3%;
+        }
+        #head1{
+            height: 2750px;
+            width: 100%;
+        
+            background-color: #F6F6F6;
+            display: flex;
+            margin: auto;
+            margin-top: 2%;
+        }
+        .sidehead{
+            height: 800px;
+            width: 40%;
+        }
+        .premium{
+            height: 70px;
+            width: 90%;
+            margin-top: 8%;
+            padding: 15px 20px;
+            box-sizing: border-box;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            background-color: white;
+        }
+      
+   .rbi{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: #212121;
+    margin-bottom: 5px;
+   }
+   .ai{
+    font-size :14px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 5px;
+    margin-top: 15px;
+   }
+   .ai:hover{
+    background-color: lightblue;
+   }
+   .dottedhr{
+    border:none;
+  border-top:1px dashed rgb(87, 58, 58);
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+  width:80%;
+   }
+   .icon1{
+       margin-left: 90%;
+       font-size: 14px;
+       
+   }
+   .icon2{
+          margin-right: 25%;
+          
+   }
+   
+   .icon2:hover{
+       background-color: #212121;
+   }
+ .center1{
+      height: 140px;
+      width: 90%;
+      margin-top: 1%;
+      padding: 10px;
+      box-sizing: border-box;
+      display: flex;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      background-color: white;
+      
+     
+  }
+  .center1first{
+      font-size: 10px;
+      font-family: 'Lato', sans-serif;
+      width: 80%;
+  }
+  .center1sec{
+    margin-left: 10%;
+    margin-top: 6%;
+    width: 20%;
+    
+  }
+  .right1sec{
+    margin-top: 3%;
+    width: 20%;
+  }
+  .right1sec>img{
+    border-radius: 5px;
+    width: 120%;
+     
+  }
+  .center1sec>img{
+      border-radius: 10px;
+      width: 60%;
+      margin-bottom: -20%;
+  }
+  .sidehead11{
+            height: auto;
+            width: 40%;
+            margin-right: 5%;
+            
+    
+  }
+  .sidehead1{
+      height: 60px;
+      width: 100%;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      background-color: white;
+      padding: 15px 10px;
+      box-sizing: border-box;
+      
+  }
+  .sidehead1>p{
+    font-size: 20px;
+    color: #212121;
+    font-weight: 900;
+    margin-top: 0%;
+    margin-left: 5%;
+  }
+  p>span{
+      margin-left: 10%;
+      color: #F99D1C;
+      margin-top: 5%;
+  }
+  .sidehead2{
+      height: 600px;
+      width: 100%;
+      border: 1px solid black;
+  }
+ .sidecenter1{
+    height: 100px;
+      margin-top: 5%;
+      padding: 15px 20px 25px 20px;
+      box-sizing: border-box;
+      display: flex;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      background-color: white;
+      margin-top: 0.5%;
+ }
+ .side1first{
+    font-size: 6px;
+      font-family: 'Lato', sans-serif;
+      width: 80%;
+      
+ }
+        
+    </style>
+</head>
+<script src="https://kit.fontawesome.com/0c430de460.js" crossorigin="anonymous"></script>
+<body>
+    <!--this is start header-->
+    <div id="header">
+     <div id="explore">
+  <div class="bars">
+    <span><i class="fa-solid fa-bars"></i></span> 
+  </div>
+  <a style="text-decoration: none;color: black;" href=""><strong>Explore</strong></a>
+  
+     </div>
+<div> <img class="mint" src="https://images.livemint.com/static/livemint-logo-v2.svg" alt=""></div>
+    <div class="search">
+      <span class="seabutton"><i class="fa-solid fa-magnifying-glass"></i></span>
+      <span class="icon"><i class="fa-solid fa-bell"></i></span>
+      <a class="epaper" href="">|  e-paper </a>
+      <a class="sign" href="sign.html">|  sign in  |</a>
+    </div>
+    </div>
+     <!--header finish here-->
+    <!--this is down side-->
+
+
+        <div id="head1">
+        <div class="sidehead">
+        <ul style="list-style-type:none;">
+         <li class="ai"> <a style="text-decoration: none;color: #212121;" href="index.html"> Home</a></li>
+        <li class="ai"> <a style="text-decoration: none;color: #212121;" href="latest.html">Latest</a> </li>
+     <li class="ai"><a style="text-decoration: none;color: #212121;" href="market.html">Markest</a> </li>
+      <li class="ai"> <a style="text-decoration: none;color: #212121;" href="premium.html">Premium</a></li>
+       <li class="ai"> <a style="text-decoration: none;color: #212121;" href="foryou.html">For You</a></li>
+                </ul>
+          <hr class="dottedhr">
+       
+            </div>
+           
+            
+
+            <div id="Center">
+                <p style="color:#F99D1C; ;">Home <i class="fa-solid fa-angle-right"></i>Premium</p>
+        <div class="centerhead">
+            
+            <div class="premium">
+                <h1 class="rbi">Premium</h1>
+            </div>
+        
+      
+            <div style="margin-top: 3%;" class="center1">
+                <div class="center1first"><h1>How RBI rate hike could impact Sensex, Nifty in near term</h1>
+         <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+     <div class="icon1">
+      <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+   <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+      </div>
+    </div>
+     <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/INDIA-EXCHANGE-TRADERS-0_1651664646819_1651664656251.JPG" alt="">
+    </div>
+                
+     </div>
+
+    <div class="center1">
+         <div class="center1first"><h1>LIC IPO: Issue subscribed 67% on Day 1</h1>
+         <span style="color: #757575;">2 min read . 07:54 PM IST</span> 
+        <div class="icon1">
+     <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+       <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+        </div>
+     </div>
+         <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/LIC_1651674094316_1651674094465.JPG" alt="">
+      </div>
+                    
+      </div>
+
+         <div class="center1">
+       <div class="center1first"><h1>Indians to benefit as US announces 1.5-year extension of work permits </h1>
+        <span style="color: #757575;">2 min read . 09:19 AM IST</span> 
+         <div class="icon1">
+         <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+       <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+         </div>
+        </div>
+        <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/h-1b_visa_1651679273743_1651679273878.jpg" alt="">
+        </div>
+                        
+         </div>
+
+          <div class="center1">
+         <div class="center1first"><h1>Wall Street: Dow up 0.14%, Nasdaq falls 0.88% ahead of Fed decision</h1>
+        <span style="color: #757575;">3 min read . 09:17 PM IST</span> 
+         <div class="icon1">
+         <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+      <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+            </div>
+         </div>
+      <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/Wall_Street_1651678633266_1651678633521.jpg" alt="">
+             </div>
+                            
+           </div>
+        <div class="center1">
+          <div class="center1first"><h1>CEA expects India to grow in range of 7-8.5% given global uncertainties</h1>
+          <span style="color: #757575;">2 min read . 07:35 AM IST</span> 
+          <div class="icon1">
+      <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+        <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+       </div>
+       </div>
+    <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/Nageswaran_1645991307661_1651681010226.jpg" alt="">
+            </div>
+                                
+          </div>
+          <div class="center1">
+        <div class="center1first"><h1>India’s services exports rise to record high in FY22</h1>
+            <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+          <div class="icon1">
+        <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+        <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+       </div>
+      </div>
+        <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/office_1651677232258.jpg" alt="">
+          </div>
+                                    
+          </div>
+      <div class="center1">
+        <div class="center1first"><h1>Adani Green Energy net profit rises over 16% in March quarter</h1>
+            <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+            <div class="icon1">
+           <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+           <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+           </div>
+      </div>
+    <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/Adani_Green_1651670326444_1651670326657.JPG" alt="">
+        </div>
+                                        
+      </div>
+         <div class="center1">
+        <div class="center1first"><h1>Does ‘Sell in May’ apply to crypto assets?</h1>
+        <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+       <div class="icon1">
+    <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+       <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+      </div>
+     </div>
+  <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/d09a2b2a-6898-11ec-9a50-ec8745c0f740_1641358792229_1651664818395.jpg" alt="">
+    </div>
+                                            
+      </div>
+  <div class="center1">
+    <div class="center1first"><h1>How far and how fast RBI could raise interest rates, impacting your EMIs</h1>
+        <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+        <div class="icon1">
+        <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+           <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+       </div>
+        </div>
+    <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/RBI_1651663169680_1651663169815.JPG" alt="">
+        </div>
+                                                
+     </div>
+      <div class="center1">
+   <div class="center1first"><h1>Google picks former Modi think-tank official as India policy head: Report</h1>
+       <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+            <div class="icon1">
+            <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+          <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+            </div>
+    </div>
+    <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/600x338/google_1651670897167_1651670897334.JPG" alt="">
+          </div>                                                    
+      </div>
+      <div class="center1">
+    <div class="center1first"><h1>Tata Steel shares surge post Q4, stock split announcement. Should you buy?</h1>
+    <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+        <div class="icon1">
+    <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+   <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+   </div>
+      </div>
+   <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/Tata_Steel_1651632904984_1651632905185.jpg" alt="">
+            </div>                                    
+          </div>
+      <div class="center1">
+   <div class="center1first"><h1>This private bank offers 7% rate on FDs to senior citizens. Check rates here </h1>
+    <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+    <div class="icon1">
+        <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+       <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+       </div>
+      </div>
+    <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/Cat-A-Premium2_1562323803439_1651686662593.jpg" alt="">
+   </div>                                                            
+         </div>
+           <div class="center1">
+      <div class="center1first"><h1>What govt data tells us about covid-19 deaths</h1>
+        <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+    <div class="icon1">
+    <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+       <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+       </div>
+      </div>
+    <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/primerpic_1651687092651_1651687106598.jpg" alt="">
+            </div>                   
+          </div>
+      <div class="center1">
+        <div class="center1first"><h1>What are right funds to invest in if you have high-risk appetite?</h1>
+            <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+                <div class="icon1">
+                <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+                 <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+              </div>
+             </div>
+       <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/mfs_1651685425717_1651685445029.jpg" alt="">
+       </div>                                                                 
+     </div>
+ <div class="center1">
+   <div class="center1first"><h1>Israel PM Bennet says Vladimir Putin apologised after dispute over Hitler remark</h1>
+       <span style="color: #757575;">4 min read . 11:55 AM IST</span> 
+   <div class="icon1">
+   <a class="icon2"><i class="fa-regular fa-bookmark"></i></a>
+ <a class="icon3"><i class="fa-solid fa-share-nodes"></i></a> 
+   </div>
+      </div>
+   <div class="center1sec"><img src="https://images.livemint.com/img/2022/05/06/90x90/EMIRATES-SECURITY-YEMEN-ISRAEL-0_1644250683594_1651810927073.JPG" alt="">
+               </div>                                                                 
+                 </div>
+                </div>
+            </div>
+           
+          <!------------- right side start here --------------->
+            <div class="sidehead11">
+            <div class="sidehead1">
+           <p>Recommended For You <span><i class="fa-solid fa-chevron-right"></i></span></p> 
+            </div>
+            <div class="sidecenter1">
+            <div class="side1first"><h1>PM Modi attends 2nd India-Nordic summit in Copenhagen</h1>
+            <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+            <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                        
+          </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/04/250x250/modi_1651667025447_1651667034695.png" alt="">
+        </div>
+                    
+          </div>
+
+              <div class="sidecenter1">
+             <div class="side1first"><h1>Ahead of assembly polls, BJP to hold high-level meeting in Jaipur in May.</h1>
+             <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+           <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+          </div>
+           <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/05/250x250/JP_Nadda_1651724462100_1651724462292.jpg" alt="">
+          </div>
+          </div>
+          <div class="sidecenter1">
+        <div class="side1first"><h1>India turns to expensive foreign LNG to ease a power crisis</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+           <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+              </div>
+           <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/05/250x250/LNG_1651732633916_1651732634105.jpg" alt="">
+            </div>
+          </div>
+      <div class="sidecenter1">
+        <div class="side1first"><h1>Garmin launches vivomove Sport hybrid smartwatch across Nykaa platforms</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+       <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>   
+          </div>
+     <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/05/250x250/GARMIN_VIVOMOVE_SPORT_1651742983438_1651742989636.png" alt="">
+            </div>
+             </div>        
+         <div class="sidecenter1">
+         <div class="side1first"><h1>Zerodha introduces Iceberg orders and order validity in minutes. Details here</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>    
+              </div>
+       <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/05/250x250/Nithin_Kamath_1651742957545_1651742957701.jpg" alt="">
+                </div>
+
+
+                    
+         </div>    
+              <!--Trending start here -->         
+         <div style="margin-top: 5%;" class="sidehead1">
+            <p>Trending      <span><i class="fa-solid fa-chevron-right"></i></span></p> 
+         </div>
+<!--ssecond part 1-->
+<div class="sidecenter1">
+    <div class="side1first"><h1>Cognizant plans to make fewer acquisitions this year</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+        
+      </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/06/90x90/Capture_1651809794312_1651809799972.JPG" alt="">
+        </div>
+    
+      </div>
+      <div class="sidecenter1">
+        <div class="side1first"><h1>Bengaluru man orders food from Swiggy, gets it via Dunzo. Read to know</h1>
+            <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+            <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+            
+          </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/05/90x90/bengaluru_swiggy_dunzo_1651763770104_1651763770330.jpg" alt="">
+            </div>
+        
+          </div>
+          <div class="sidecenter1">
+            <div class="side1first"><h1>LIC IPO fully subscribed on Day 2</h1>
+                <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+                <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                
+              </div>
+            <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/05/90x90/India-Life-Insurance-IPO-0_1651723098364_1651723131083.jpg" alt="">
+                </div>
+            
+              </div>
+              <div class="sidecenter1">
+                <div class="side1first"><h1>CUET registration deadline extended till 22 May. Details here</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+            <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                    
+          </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/05/90x90/cuet_registration_1651765610850_1651765611069.jpg" alt="">
+            </div>
+                
+            </div>
+              
+                  <!--latest start here-->
+
+      <div style="margin-top: 5%;" class="sidehead1">
+        <p>Latest     <span><i class="fa-solid fa-chevron-right"></i></span></p> 
+             </div>
+            <!--ssecond part 1-->
+        <div class="sidecenter1">
+        <div class="side1first"><h1>Sensex Tanks 900 Points as Metal, IT Stocks Bleed; Wipro & HCL Tech Top</h1>
+    <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+      <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                    
+      </div>
+       <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/06/90x90/markets_1647363111946_1651814731166.jpg" alt="">
+            </div>
+                
+          </div>
+          <div class="sidecenter1">
+            <div class="side1first"><h1>Indian Railways to run over 65 special trains for RRB-NTPC exam candidates</h1>
+            <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+            <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                        
+      </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/06/90x90/Delhi-Sarojni-Nagar-2_1651647865480_1651813783292.jpg" alt="">
+        </div>
+                    
+      </div>
+      <div class="sidecenter1">
+        <div class="side1first"><h1>Top 5 Edible Oil Stocks to Consider Right Now</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                            
+          </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/06/90x90/mf_1613576439045_1651814120572.jpg" alt="">
+            </div>
+                        
+          </div>
+          <div class="sidecenter1">
+        <div class="side1first"><h1>India's excess Covid-19 deaths highest in the world, says WHO</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                
+          </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/05/250x250/india_covid_deaths_1651767457731_1651767457916.jpg" alt="">
+        </div>
+                            
+    </div>
+                             
+                              <!--primer start here-->
+
+          <div style="margin-top: 5%;" class="sidehead1">
+        <p>Primer     <span><i class="fa-solid fa-chevron-right"></i></span></p> 
+             </div>
+                        <!--ssecond part 1-->
+        <div class="sidecenter1">
+        <div class="side1first"><h1>How India’s new VPN rules change the status quo</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                
+          </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/05/90x90/VPN_1651770873323_1651770885001.jpg" alt="">
+        </div>
+                            
+      </div>
+      <div class="sidecenter1">
+    <div class="side1first"><h1>What official data says about Covid-year excess deaths</h1>
+    <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+    <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                    
+                  </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/04/90x90/primerpic_1651687092651_1651687106598.jpg" alt="">
+                    </div>
+                                
+                  </div>
+          <div class="sidecenter1">
+       <div class="side1first"><h1>How a trade deal with the EU could shape up</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                        
+      </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/03/90x90/trade_1651602332159_1651602336949.jpg" alt="">
+        </div>
+                                    
+      </div>
+      <div class="sidecenter1">
+        <div class="side1first"><h1>What is driving up GST collection?</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                            
+      </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/02/90x90/GSTpic_1651513922131_1651513927953.jpg" alt="">
+        </div>
+                                        
+        </div>
+                                    
+                                          <!--premium start here-->
+
+      <div style="margin-top: 5%;" class="sidehead1">
+        <p>Premium     <span><i class="fa-solid fa-chevron-right"></i></span></p> 
+         </div>
+                                    <!--ssecond part 1-->
+        <div class="sidecenter1">
+        <div class="side1first"><h1>Sensex Tanks 900 Points as Metal, IT Stocks Bleed; Wipro & HCL Tech Top</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                            
+          </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/06/90x90/markets_1647363111946_1651814731166.jpg" alt="">
+        </div>
+                                        
+          </div>
+          <div class="sidecenter1">
+        <div class="side1first"><h1>Top 5 Edible Oil Stocks to Consider Right Now</h1>
+    <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                                
+      </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/06/90x90/mf_1613576439045_1651814120572.jpg" alt="">
+        </div>
+                                            
+          </div>
+      <div class="sidecenter1">
+    <div class="side1first"><h1>Watch out for a silent build-up of bad assets</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                                    
+          </div>
+        <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/05/90x90/Banks_1585821272917_1651777417268.jpg" alt="">
+            </div>
+                                                
+      </div>
+      <div class="sidecenter1">
+        <div class="side1first"><h1>Price hikes are key to Havell’s steady growth</h1>
+        <span style="color: #757575;font-size: 12px;">2 min read . 07:35 AM IST </span> 
+        <span style="margin-left: 10%;font-size: 15px;"><i class="fa-regular fa-bookmark"></i></span>
+                                                        
+      </div>
+    <div class="right1sec"><img src="https://images.livemint.com/img/2022/05/05/90x90/Havells_1651776445147_1651776445300.jpg" alt="">
+   </div>                                                    
+  </div>                                                
+      </div>
+
+        </div>      
+        
+</body>
+</html>
